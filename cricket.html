@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Game</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<h1>Cricket Game</h1>
+
+<button onclick="playGame('Bat')">
+  <img src="images/bat.png" alt="" width="80">
+</button>
+<button onclick="playGame('Ball')">
+  <img src="images/ball.png" alt="" width="80">
+</button>
+<button onclick="playGame('Stump')">
+  <img src="images/stump.png" alt="" width="80">
+</button>
+
+<br><br>
+
+<button onclick="resetScore()">Reset Score</button>
+<br>
+<h3 id="move"></h3>
+<h3 id="result"></h3>
+<h3 id="score"></h3>
+<br>
+
+ <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+1️⃣ <!DOCTYPE html>
+➡️ Browser ko batata hai HTML5 document hai.
+
+2️⃣ <html lang="en">
+➡️ HTML page start aur language English set.
+
+3️⃣ <meta charset="UTF-8">
+➡️ Page ka character encoding UTF-8 set.
+
+4️⃣ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+➡️ Page mobile responsive banane ke liye.
+
+5️⃣ <title>Cricket Game</title>
+➡️ Browser tab me page title show hoga.
+
+6️⃣ <link rel="stylesheet" href="style.css">
+➡️ External CSS file connect ki.
+
+7️⃣ <h1>Cricket Game</h1>
+➡️ Page ka main heading.
+
+8️⃣ <button onclick="playGame('Bat')">
+➡️ Bat image click karne par playGame function run.
+
+9️⃣ <img src="bat.png">
+➡️ Button ke andar bat image display.
+
+🔟 <button onclick="playGame('Ball')">
+➡️ Ball click karne par game start.
+
+1️⃣1️⃣ <button onclick="playGame('Stump')">
+➡️    Stump click karne par game start.
+
+1️⃣2️⃣ <button onclick="resetScore()">Reset Score</button>
+➡️ Click karne par score reset function run.
+
+1️⃣3️⃣ <h3 id="move"></h3>
+➡️ Yaha user aur computer move show hoga.
+
+1️⃣4️⃣ <h3 id="result"></h3>
+➡️ Yaha game result show hoga.
+
+1️⃣5️⃣  <h3 id="score"></h3>
+➡️ Yaha win / lose / draw score show hoga.
+
+1️⃣6️⃣ <script src="script.js"></script>
+➡️ JavaScript file HTML page se connect ki.
+
+
+🎮 Complete Game Flow
+User Image Click
+      ↓
+playGame()
+      ↓
+Computer Random Choice
+      ↓
+Win / Lose / Draw Check
+      ↓
+Score Update
+      ↓
+localStorage Save
+      ↓
+showResult()
+      ↓
+Page Update
+
+✅ Humne is project me ye important JS concepts use kiye:
+
+localStorage
+JSON.parse / JSON.stringify
+DOM Manipulation
+Functions
+Arrays
+Random Logic
+Event Handling -->
