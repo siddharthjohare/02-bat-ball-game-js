@@ -10,7 +10,6 @@ An interactive, logic-driven frontend cricket game engineered to master native J
 ---
 
 🛠️ Technical Implementation & Core Concepts
-
 This repository serves as a practical showcase of fundamental JavaScript execution layers, clean DOM tree synchronization, and micro-interaction styling properties:
 
 Client-Side Storage Persistence: Leveraged the browser's native localStorage API coupled with standard serialization practices (JSON.parse and JSON.stringify) to maintain strict user score tracking persistence across active window reloads and session drops.
@@ -40,6 +39,7 @@ script.js - Logic module governing mathematical workflows, comparative state che
 style.css - UI custom presentation styles providing a dark gaming theme setup and customized button responsive rules.
 
 ---
+
 ### 🎮 Game Flow Architecture
 
 The runtime lifecycle of the application follows a highly structured execution pattern upon every explicit user input:
